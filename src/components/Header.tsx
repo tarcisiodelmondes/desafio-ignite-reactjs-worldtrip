@@ -1,4 +1,10 @@
-import { Flex, Image, useBreakpointValue } from "@chakra-ui/react";
+import {
+  Flex,
+  Image,
+  useBreakpointValue,
+  Link as ChakraLink,
+} from "@chakra-ui/react";
+import Link from "next/link";
 import { useRouter } from "next/router";
 
 export function Header() {
@@ -10,29 +16,26 @@ export function Header() {
     md: "/desktop-chevron-left.svg",
   });
 
-  function handleBackHome() {
-    router.push("/");
-  }
-
   return (
     <Flex
       as="header"
       w="100%"
       h={["50px", "50px", "100px"]}
-      pt={["1rem", "1rem", "1.69rem"]}
-      pb={["1rem", "1rem", "1.69rem"]}
-      pl="1rem"
-      pr="1rem"
+      py={[4, 4, "1.69rem"]}
+      px="4"
     >
       <Flex w="100%" alignItems="center" maxW="1160px" mx="auto">
         {isHomePage !== "/" && (
-          <Image
-            onClick={handleBackHome}
-            src={comeBackButton}
-            alt="Voltar"
-            maxH="100%"
-            cursor="pointer"
-          />
+          <Link href="/" passHref>
+            <ChakraLink>
+              <Image
+                src={comeBackButton}
+                alt="Voltar"
+                maxH="100%"
+                cursor="pointer"
+              />
+            </ChakraLink>
+          </Link>
         )}
 
         <Image
