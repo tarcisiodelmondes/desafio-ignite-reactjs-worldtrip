@@ -23,7 +23,7 @@ export function SectionTravel({ isWideVersion }: SectionTravelProps) {
             <Box w="8px" h="8px" mr="5" bg="yellow.500" borderRadius="full" />
           )}
           <Text
-            fontWeight="600"
+            fontWeight={["500", "500", "600"]}
             whiteSpace="nowrap"
             fontSize={["lg", "lg", "2xl"]}
             lineHeight={["27px", "36px"]}
@@ -46,7 +46,7 @@ export function SectionTravel({ isWideVersion }: SectionTravelProps) {
             <Box w="8px" h="8px" mr="5" bg="yellow.500" borderRadius="full" />
           )}
           <Text
-            fontWeight="600"
+            fontWeight={["500", "500", "600"]}
             fontSize={["lg", "lg", "2xl"]}
             lineHeight={["27px", "36px"]}
             mt={isWideVersion ? 6 : 0}
@@ -64,7 +64,7 @@ export function SectionTravel({ isWideVersion }: SectionTravelProps) {
             <Box w="8px" h="8px" mr="5" bg="yellow.500" borderRadius="full" />
           )}
           <Text
-            fontWeight="600"
+            fontWeight={["500", "500", "600"]}
             fontSize={["lg", "lg", "2xl"]}
             lineHeight={["27px", "36px"]}
             mt={isWideVersion ? 6 : 0}
@@ -86,7 +86,7 @@ export function SectionTravel({ isWideVersion }: SectionTravelProps) {
             <Box w="8px" h="8px" mr="5" bg="yellow.500" borderRadius="full" />
           )}
           <Text
-            fontWeight="600"
+            fontWeight={["500", "500", "600"]}
             fontSize={["lg", "lg", "2xl"]}
             lineHeight={["27px", "36px"]}
             mt={isWideVersion ? 6 : 0}
@@ -108,7 +108,7 @@ export function SectionTravel({ isWideVersion }: SectionTravelProps) {
             <Box w="8px" h="8px" mr="5" bg="yellow.500" borderRadius="full" />
           )}
           <Text
-            fontWeight="600"
+            fontWeight={["500", "500", "600"]}
             fontSize={["lg", "lg", "2xl"]}
             lineHeight={["27px", "36px"]}
             mt={isWideVersion ? 6 : 0}
