@@ -6,7 +6,14 @@ interface BannerProps {
 
 export function Banner({ isWideVersion }: BannerProps) {
   return (
-    <Box px="1rem" py="1.75rem" backgroundImage="/background.png">
+    <Box
+      px="1rem"
+      py="1.75rem"
+      backgroundImage="/background.png"
+      backgroundRepeat="no-repeat"
+      backgroundSize="cover"
+      backgroundPosition="center"
+    >
       <Flex maxW="1160px" mx="auto" align="center" justify="space-between">
         <Stack maxW="524px">
           <Heading
