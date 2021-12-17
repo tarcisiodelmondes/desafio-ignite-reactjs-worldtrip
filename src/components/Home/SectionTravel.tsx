@@ -12,7 +12,7 @@ export function SectionTravel({ isWideVersion }: SectionTravelProps) {
       px="3.125rem"
       mt={["9", "9", "7.125rem"]}
       rowGap={!isWideVersion && "6"}
-      colGap={4}
+      columnGap={4}
       justifyItems={isWideVersion && "center"}
     >
       <GridItem>
