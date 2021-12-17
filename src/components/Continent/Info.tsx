@@ -10,6 +10,7 @@ import {
   PopoverCloseButton,
   PopoverHeader,
   PopoverBody,
+  Button,
 } from "@chakra-ui/react";
 
 interface InfoProps {
@@ -40,7 +41,9 @@ export function Info({ text, number, icon = false }: InfoProps) {
         {icon && (
           <Popover>
             <PopoverTrigger>
-              <Image cursor="pointer" ml="5px" src="/info.svg" alt="Info" />
+              <button>
+                <Image cursor="pointer" ml="5px" src="/info.svg" alt="Info" />
+              </button>
             </PopoverTrigger>
             <PopoverContent>
               <PopoverArrow />
