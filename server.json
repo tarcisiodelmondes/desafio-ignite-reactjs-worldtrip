@@ -30,7 +30,7 @@
         "name": "América do Norte",
         "image": "https://images.unsplash.com/photo-1612012539633-1ddf45bff52c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1294&q=80",
         "description": "A América do Norte está localizada no extremo norte das Américas e é composta por apenas três países: Estados Unidos, Canadá e México, além de territórios de domínios europeus, como a Groelândia (pertencente ao Reino da Dinamarca, com representação no parlamento) e Bermudas (dependência britânica).",
-        "country": [
+        "countries": [
             {
                 "name": "Canadá",
                 "flag": "https://i.pinimg.com/564x/d9/78/08/d97808adef6dc9d7f14cfc21ea586276.jpg",
@@ -40,19 +40,15 @@
                         "image": "https://images.unsplash.com/photo-1591400304123-7d10f2f5add9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1529&q=80"
                     },
                     {
-                        "name": "Montreal",
+                        "name": "Montreal 1",
                         "image": "https://images.unsplash.com/photo-1470181942237-78ce33fec141?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                     },
                     {
-                        "name": "Ottawa",
+                        "name": "Ottawa 2",
                         "image": "https://images.unsplash.com/photo-1591400304123-7d10f2f5add9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1529&q=80"
                     },
                     {
-                        "name": "Montreal",
-                        "image": "https://images.unsplash.com/photo-1470181942237-78ce33fec141?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                    },
-                    {
-                        "name": "Montreal",
+                        "name": "Montreal 2",
                         "image": "https://images.unsplash.com/photo-1470181942237-78ce33fec141?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                     }
                 ]
@@ -73,7 +69,7 @@
         "name": "América do Sul",
         "image": "https://images.unsplash.com/photo-1601319840053-3593fdf090cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80Y",
         "description": "A América do Sul é um continente que compreende a porção meridional da América. Também é considerada um subcontinente do continente americano. A sua extensão é de 17 819 100 km², abrangendo 12% da superfície terrestre e 6% da população mundial.",
-        "country": [
+        "countries": [
             {
                 "name": "Brasil",
                 "flag": "https://i.pinimg.com/564x/09/17/9a/09179ace55b7085a20f515e5d9cfd8d5.jpg",
@@ -102,7 +98,7 @@
         "name": "Ásia",
         "image": "https://images.unsplash.com/photo-1610238115511-81be15284155?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
         "description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial.",
-        "country": [
+        "countries": [
             {
                 "name": "Japão",
                 "flag": "https://i.pinimg.com/736x/68/b4/8c/68b48c29c8835b4fc5fd91be9674a9c4.jpg",
@@ -131,7 +127,7 @@
         "name": "Oceania",
         "image": "https://images.unsplash.com/photo-1595263187083-1334b774dfb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1507&q=80",
         "description": "A Oceania é um continente situado entre os oceanos Índico e Pacífico, a sudeste da Ásia. A maior parte de suas terras fica no Hemisfério Sul do planeta. É composto por 14 países e ilhas e territórios pertencentes a outros países, tanto oceânicos quanto de outros continentes. A maior e mais populosa das nações é a Austrália, que consiste também na principal economia do continente.",
-        "country": [
+        "countries": [
             {
                 "name": "Austrália",
                 "flag": "https://i.pinimg.com/564x/50/db/d6/50dbd6191e4673a90adb5de97bb6af9d.jpg",
@@ -160,7 +156,7 @@
         "name": "Europa",
         "image": "https://images.unsplash.com/photo-1560394638-7b2346507d03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
-        "country": [
+        "countries": [
             {
                 "name": "Tailândia",
                 "flag": "https://i.pinimg.com/564x/19/62/85/196285154e1ca49be162f186bef8e9b4.jpg",
