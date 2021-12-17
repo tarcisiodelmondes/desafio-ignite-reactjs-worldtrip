@@ -1,22 +1,22 @@
 import { Flex, Image, Text } from "@chakra-ui/react";
 
-type Country = {
+type Countries = {
   name: string;
   flag: string;
-  cities: [
-    {
-      name: string;
-      image: string;
-    }
-  ];
+  cities: Cities[];
+};
+
+type Cities = {
+  name: string;
+  image: string;
 };
 
 interface ContinentType {
   name: string;
   image: string;
-  country: Country[];
+  description: string;
+  countries: Countries[];
 }
-
 interface BannerProps {
   isWideVersion: boolean;
   continent: ContinentType;
@@ -29,7 +29,7 @@ export function Banner({ continent, isWideVersion }: BannerProps) {
         src={continent.image}
         alt={continent.name}
         style={{ filter: "brightness(.5)" }}
-        maxW="100%"
+        w="100%"
         maxH="100%"
         backgroundSize="contain"
         backgroundRepeat="no-repeat"
